@@ -47,6 +47,8 @@ Once one knows the number of parameters, this ambount of bytes can be read.
 
 ## Meaning of the data
 
+### 3003
+
 | Number | Internal ID | Internal Text | conversion | Notes |
 |---|---|---|---|---|
 |0|ID_Transfert_LuxNet||||
@@ -1111,3 +1113,147 @@ Once one knows the number of parameters, this ambount of bytes can be read.
 |1059|ID_Waermemenge_ZWE||||
 |1060|ID_Waermemenge_Reset||||
 |1061|ID_Waermemenge_Reset_2||||
+
+### 3004
+
+| Number | Internal ID | Internal Text | conversion | unit | type | translation | Notes |
+|---|---|---|---|---|---|---|---|
+|id|identifier|textid|category|factor|unit|type|text||
+|10|ID_WEB_Temperatur_TVL|Text_Vorlauf|temperature|10|°C|||Vorlauf||
+|11|ID_WEB_Temperatur_TRL|Text_Rucklauf|temperature|10|°C|||Rücklauf||
+|12|ID_WEB_Sollwert_TRL_HZ|Text_RL_Soll|temperature|10|°C|||Rückl.-Soll||
+|13|ID_WEB_Temperatur_TRL_ext|Text_Ruecklext|temperature|10|°C|||Rückl.-Extern||
+|14|ID_WEB_Temperatur_THG|Text_Heissgas|temperature|10|°C|||Heissgas||
+|15|ID_WEB_Temperatur_TA|Text_Aussent|temperature|10|°C|||Aussentemperatur||
+|16|ID_WEB_Mitteltemperatur|Text_Mitteltemperatur|temperature|10|°C|||Mitteltemperatur||
+|17|ID_WEB_Temperatur_TBW|Text_BW_Ist|temperature|10|°C|||Warmwasser-Ist||
+|18|ID_WEB_Einst_BWS_akt|Text_BW_Soll|temperature|10|°C|||Warmwasser-Soll||
+|19|ID_WEB_Temperatur_TWE|Text_WQ_Ein|temperature|10|°C|||Wärmequelle-Ein||
+|20|ID_WEB_Temperatur_TWA|Text_Kaltekreis|temperature|10|°C|||Wärmequelle-Aus||
+|21|ID_WEB_Temperatur_TFB1|Text_MK1_Vorlauf|temperature|10|°C|||Mischkreis1-Vorlauf||
+|22|ID_WEB_Sollwert_TVL_MK1|Text_MK1VL_Soll|temperature|10|°C|||Mischkreis1 VL-Soll||
+|23|ID_WEB_Temperatur_RFV|Text_Raumstation|temperature|10|°C|||Raumstation||
+|24|ID_WEB_Temperatur_TFB2|Text_MK2_Vorlauf|temperature|10|°C|||Mischkreis2-Vorlauf||
+|25|ID_WEB_Sollwert_TVL_MK2|Text_MK2VL_Soll|temperature|10|°C|||Mischkreis2 VL-Soll||
+|26|ID_WEB_Temperatur_TSK|Text_Solarkoll|temperature|10|°C|||Solarkollektor||
+|27|ID_WEB_Temperatur_TSS|Text_Solarsp|temperature|10|°C|||Solarspeicher||
+|28|ID_WEB_Temperatur_TEE|Text_Ext_Energ|temperature|10|°C|||Externe Energ.Quelle||
+|29|ID_WEB_ASDin|Text_ASD|input|||||ASD||
+|30|ID_WEB_BWTin|Text_BWT|input|||||BWT||
+|31|ID_WEB_EVUin|Text_EVU|input|||||EVU||
+|32|ID_WEB_HDin|Text_HD|input|||||HD||
+|33|ID_WEB_MOTin|Text_MOT|input|||||MOT||
+|34|ID_WEB_NDin|Text_ND|input|||||ND||
+|35|ID_WEB_PEXin|Text_PEX|input|||||PEX||
+|36|ID_WEB_SWTin|Text_SWT|input|||||SWT||
+|37|ID_WEB_AVout|Text_Abtauventil|output|||||AV-Abtauventil||
+|38|ID_WEB_BUPout|Text_BUP|output|||||BUP||
+|39|ID_WEB_HUPout|Text_HUP|output|||||HUP||
+|40|ID_WEB_MA1out|Text_Mischer1Auf|output|||||Mischer 1 Auf||
+|41|ID_WEB_MZ1out|Text_Mischer1Zu|output|||||Mischer 1 Zu||
+|42|ID_WEB_VENout|Text_Ventilation|output|||||Ventilation||
+|43|ID_WEB_VBOout|Text_Ventil_BOSUP|output|||||Ventil.-BOSUP||
+|44|ID_WEB_VD1out|Text_Verdichter1|output|||||Verdichter 1||
+|45|ID_WEB_VD2out|Text_Verdichter2|output|||||Verdichter 2||
+|46|ID_WEB_ZIPout|Text_ZIP_AUSGANG|output|||||ZIP||
+|47|ID_WEB_ZUPout|Text_ZUP|output|||||ZUP||
+|48|ID_WEB_ZW1out|Text_ZWE1|output|||||ZWE 1||
+|49|ID_WEB_ZW2SSTout|Text_ZWE2_SST|output|||||ZWE 2 - SST||
+|50|ID_WEB_ZW3SSTout|Text_ZWE3|output|||||ZWE 3||
+|51|ID_WEB_FP2out|Text_FUP2|output|||||FUP 2||
+|52|ID_WEB_SLPout|Text_SLP|output|||||SLP||
+|53|ID_WEB_SUPout|Text_SUP|output|||||SUP||
+|54|ID_WEB_MZ2out|Text_Mischer2Zu|output|||||Mischer 2 Zu||
+|55|ID_WEB_MA2out|Text_Mischer2Auf|output|||||Mischer 2 Auf||
+|56|ID_WEB_Zaehler_BetrZeitVD1|Text_BStdVD1|operating_hours|3600|h|||Betriebstund. VD1||
+|57|ID_WEB_Zaehler_BetrZeitImpVD1|Text_ImpVD1|operating_hours|||5||Impulse Verdichter 1||
+|58|ID_WEB_Zaehler_BetrZeitVD2|Text_BStdVD2|operating_hours|3600|h|||Betriebstund. VD2||
+|59|ID_WEB_Zaehler_BetrZeitImpVD2|Text_ImpVD2|operating_hours|||5||ImpulseVerdichter 2||
+|60|ID_WEB_Zaehler_BetrZeitZWE1|Text_BStdZWE1|operating_hours|3600|h|||Betriebstunden ZWE1||
+|61|ID_WEB_Zaehler_BetrZeitZWE2|Text_BStdZWE2|operating_hours|3600|h|||Betriebstunden ZWE2||
+|62|ID_WEB_Zaehler_BetrZeitZWE3|Text_BStdZWE3|operating_hours|7200|h|||Betriebstunden ZWE3||
+|63|ID_WEB_Zaehler_BetrZeitWP|Text_BStdWP|operating_hours|3600|h|||Betriebstunden WP||
+|64|ID_WEB_Zaehler_BetrZeitHz|Text_BStdHz|operating_hours|3600|h|||Betriebstunden Heiz.||
+|65|ID_WEB_Zaehler_BetrZeitBW|Text_BStdBW|operating_hours|3600|h|||Betriebstunden WW||
+|66|ID_WEB_Zaehler_BetrZeitKue|Text_BStdKue|operating_hours|3600|h|||Betriebstunden Kuehl||
+|67|ID_WEB_Time_WPein_akt|Text_WP_Seit|error_memory|||4||WP Seit||
+|68|ID_WEB_Time_ZWE1_akt|Text_ZWE1_seit|error_memory|||4||ZWE1 seit||
+|69|ID_WEB_Time_ZWE2_akt|Text_ZWE2_seit|error_memory|||4||ZWE2 seit||
+|70|ID_WEB_Timer_EinschVerz|Text_Netzeinv|error_memory|||4||Netzeinschaltv.||
+|71|ID_WEB_Time_SSPAUS_akt|Text_SSP_Zeit1|error_memory|||4||SSP-Zeit||
+|72|ID_WEB_Time_SSPEIN_akt|Text_SSP_Zeit1|error_memory|||4||SSP-Zeit||
+|73|ID_WEB_Time_VDStd_akt|Text_VD_Stand|error_memory|||4||VD-Stand||
+|74|ID_WEB_Time_HRM_akt|Text_HRM_Zeit|error_memory|||4||HRM-Zeit||
+|75|ID_WEB_Time_HRW_akt|Text_HRW_Zeit|error_memory|||4||HRW-Zeit||
+|76|ID_WEB_Time_LGS_akt|Text_TDI_seit|error_memory|||4||TDI seit||
+|77|ID_WEB_Time_SBW_akt|Text_Sperre_BW|error_memory|||4||Sperre WW||
+|78|ID_WEB_Code_WP_akt|Text_WP_Typ|status|||3||Wärmepumpen Typ||
+|79|ID_WEB_BIV_Stufe_akt|Text_Biv_Sufe|status|||5||Bivalenz Stufe||
+|80|ID_WEB_WP_BZ_akt|Text_Betr_Zust|status|||7||Betriebszustand||
+|81|ID_WEB_SoftStand1|Text_SW_Stand|status|||6||Softwarestand||
+|91|ID_WEB_AdresseIP_akt|Text_IP_Adresse|status|||1||IP-Adresse||
+|92|ID_WEB_SubNetMask_akt|Text_SubNetzMask|status|||1||Subntzmsk.||
+|93|ID_WEB_Add_Broadcast|Text_Broadcast|status|||1||Broadcast||
+|94|ID_WEB_Add_StdGateway|Text_Gateway|status|||1||Gateway||
+|116|ID_WEB_Comfort_exists|Text_Sim_Confort_Platine|status|||||Comfort Platine||
+|136|ID_WEB_Sollwert_TVL_MK3|Text_MK3VL_Soll|temperature|10|°C|||Mischkreis3 VL-Soll||
+|137|ID_WEB_Temperatur_TFB3|Text_MK3_Vorlauf|temperature|10|°C|||Mischkreis3-Vorlauf||
+|138|ID_WEB_MZ3out|Text_Mischer3Zu|output|||||Mischer 3 Zu||
+|139|ID_WEB_MA3out|Text_Mischer3Auf|output|||||Mischer 3 Auf||
+|140|ID_WEB_FP3out|Text_FUP3|output|||||FUP 3||
+|141|ID_WEB_Time_AbtIn|Text_Abtauen|error_memory|||4||Abtauen||
+|142|ID_WEB_Temperatur_RFV2|Text_Raumstation2|temperature|10|°C|||Raumstation MK2||
+|143|ID_WEB_Temperatur_RFV3|Text_Raumstation3|temperature|10|°C|||Raumstation MK3||
+|145|ID_WEB_Zaehler_BetrZeitSW|Text_BStdSW|operating_hours|7200|h|||Betriebstunden SW||
+|146|ID_WEB_FreigabKuehl|Text_FreigabKuehl|input|||||Freigabe Kühlung||
+|147|ID_WEB_AnalogIn|Text_AnalogIn|input|100| V|||AIn||
+|156|ID_WEB_AnalogOut1|Text_AnalogOut1|output|100|V|||AO1||
+|157|ID_WEB_AnalogOut2|Text_AnalogOut2|output|100|V|||AO2||
+|158|ID_WEB_Time_Heissgas|Text_Sperre_2VD_HG|error_memory|||4||Sperre 2.VD HG||
+|159|ID_WEB_Temp_Lueftung_Zuluft|Text_Luft_Zulufttemp|temperature|10|°C|||Zulufttemperatur||
+|160|ID_WEB_Temp_Lueftung_Abluft|Text_Luft_Ablufttemp|temperature|10|°C|||Ablufttemperatur||
+|161|ID_WEB_Zaehler_BetrZeitSolar|Text_BSTD_Solar|operating_hours|3600|h|||Betriebstunden Solar||
+|162|ID_WEB_AnalogOut3|Text_AnalogOut3|output|100|V|||AO3||
+|163|ID_WEB_AnalogOut4|Text_AnalogOut4|output|100|V|||AO4||
+|164|ID_WEB_Out_VZU|Text_Out_VZU|output|100|V|||Vent. Zuluft||
+|165|ID_WEB_Out_VAB|Text_Out_VAB|output|100|V|||Vent. Abluft||
+|166|ID_WEB_Out_VSK|Text_Out_VSK|output|||||VSK||
+|167|ID_WEB_Out_FRH|Text_Out_FRH|output|||||FRH||
+|168|ID_WEB_AnalogIn2|Text_AnalogIn2|input|100| V|||AIn2||
+|169|ID_WEB_AnalogIn3|Text_AnalogIn3|input|100| V|||AIn3||
+|170|ID_WEB_SAXin|Text_SAX|input|||||SAX||
+|171|ID_WEB_SPLin|Text_SPL|input|||||SPL||
+|172|ID_WEB_Compact_exists|Text_Sim_Compact_Platine|status|||||Lüftungsplatine||
+|173|ID_WEB_Durchfluss_WQ|Text_DurchflussWQ|input|1| l/h|||Durchfluss WQ||
+|175|ID_WEB_LIN_ANSAUG_VERDAMPFER|Text_Verdampfungstemp|temperature|10|°C|||Verd.temp. EEV||
+|176|ID_WEB_LIN_ANSAUG_VERDICHTER|Text_Ansaug_Verdichter|temperature|10|°C|||Ansaug VD||
+|177|ID_WEB_LIN_VDH|Text_VD_Heizung|temperature|10|°C|||VD-Heizung||
+|178|ID_WEB_LIN_UH|Text_Ueberhitzung|temperature|10| K|||Überhitzung||
+|179|ID_WEB_LIN_UH_Soll|Text_Ueberhitzung_Soll|temperature|10| K|||Überhitzung Soll||
+|180|ID_WEB_LIN_HD|Text_HD|input|100| bar|||HD||
+|181|ID_WEB_LIN_ND|Text_ND|input|100| bar|||ND||
+|182|ID_WEB_LIN_VDH_out|Text_VD_Heizung|output|||||VD-Heizung||
+|183|ID_WEB_HZIO_PWM|Text_PWM_UWP|output|10| %|||Steuersignal UWP||
+|184|ID_WEB_HZIO_VEN|Text_Ven_RPM|output|1| RPM|||Ventilatordrehzahl||
+|185|ID_WEB_HZIO_EVU2|Text_EVU2|input|||||EVU 2||
+|186|ID_WEB_HZIO_STB|Text_STB|input|||||STB FBH||
+|187|ID_WEB_SEC_Qh_Soll|Text_Kap_Soll|status|100|kW|||Leistung Soll||
+|188|ID_WEB_SEC_Qh_Ist|Text_Kapazitat|status|100|kW|||Leistung Ist||
+|189|ID_WEB_SEC_TVL_Soll|Text_VL_Soll|temperature|10|°C|||Vorlauf Soll||
+|190|ID_WEB_SEC_Software|Text_SW_Stand|status|||||Softwarestand||
+|191|ID_WEB_SEC_BZ|Text_Betr_Zust|status|||7||Betriebszustand||
+|192|ID_WEB_SEC_VWV|Text_FourWayValve|output|||||4-Wege-Ventil||
+|193|ID_WEB_SEC_VD|Text_VD_RPM|output|1| RPM|||Verdichterdrehzahl||
+|194|ID_WEB_SEC_VerdEVI|Text_EvapTemp_EVI|temperature|10|°C|||Verd.temp. EVI||
+|195|ID_WEB_SEC_AnsEVI|Text_Ansaug_EVi|temperature|10|°C|||Ansaug EVi||
+|196|ID_WEB_SEC_UEH_EVI|Text_UEH_EVI|temperature|10| K|||Überhitzung EVi||
+|197|ID_WEB_SEC_UEH_EVI_S|Text_UEH_EVI_Soll|temperature|10| K|||Überhitzung EVi Soll||
+|198|ID_WEB_SEC_KondTemp|Text_Kondtemp|temperature|10|°C|||Kondensationstemp.||
+|199|ID_WEB_SEC_FlussigEx|Text_FlussigEx|temperature|10|°C|||Flüssig vor EEV||
+|200|ID_WEB_SEC_UK_EEV|Text_UK_Hauptventil|temperature|10|°C|||Unterkühlung EEV||
+|201|ID_WEB_SEC_EVI_Druck|Text_EVI_Druck|input|100| bar|||Druck EVI||
+|202|ID_WEB_SEC_U_Inv|Text_U_Inverter|input|10| V|||Spannung Inverter||
+|227|ID_WEB_RBE_RT_Ist|RBE_RT_Ist|temperature|10|°C|||Raumtemperatur Ist||
+|228|ID_WEB_RBE_RT_Soll|RBE_RT_Soll|temperature|10|°C|||Raumtemperatur Soll||
+|229|ID_WEB_Temperatur_BW_oben|Text_BW_oben|temperature|10|°C|||Warmwasser oben||
+|231|ID_WEB_Freq_VD|Text_Freq_VD|status|1|Hz|||Verdichterfrequenz||
