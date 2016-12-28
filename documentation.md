@@ -1259,7 +1259,7 @@ Once one knows the number of parameters, this ambount of bytes can be read.
 
 ### 3005
 
-| Number | Internal ID ||||| 
+| Number | Internal ID ||||
 |---|---|---|---|---|
 |0|ID_Visi_NieAnzeigen||||
 |1|ID_Visi_ImmerAnzeigen||||
