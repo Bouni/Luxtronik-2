@@ -46,3 +46,6 @@ The result is 4 bytes with the command and 4 bytes with number of parameters, al
 Once one knows the number of parameters, this ambount of bytes can be read. 
 
 ## Meaning of the data
+
+| Number | Internal ID | Internal Text | conversion | Notes |
+|---|---|---|---|---|
