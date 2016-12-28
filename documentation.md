@@ -1116,8 +1116,8 @@ Once one knows the number of parameters, this ambount of bytes can be read.
 
 ### 3004
 
-| Number | Internal ID | Internal Text | category | conversion | unit | type | translation | Notes |
-|---|---|---|---|---|---|---|---|
+| Number | Internal ID | Internal Text | category | conversion | unit | type | notes | translation | 
+|---|---|---|---|---|---|---|---|---|
 |10|ID_WEB_Temperatur_TVL|Text_Vorlauf|temperature|10|°C|||Vorlauf||
 |11|ID_WEB_Temperatur_TRL|Text_Rucklauf|temperature|10|°C|||Rücklauf||
 |12|ID_WEB_Sollwert_TRL_HZ|Text_RL_Soll|temperature|10|°C|||Rückl.-Soll||
